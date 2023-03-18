@@ -5,6 +5,7 @@ $censura = $_GET['censura'];
 
 $paragrafo_censurato = str_replace($censura, "***", $paragrafo);
 
+echo strlen($paragrafo)
 ?>
 
 <h1> 
@@ -14,3 +15,11 @@ $paragrafo_censurato = str_replace($censura, "***", $paragrafo);
 <h3>
     Paragrafo con la censura = <?php echo $paragrafo_censurato ?> 
 </h3>
+
+<?php
+
+echo strlen($paragrafo_censurato)
+
+?>
+
+
